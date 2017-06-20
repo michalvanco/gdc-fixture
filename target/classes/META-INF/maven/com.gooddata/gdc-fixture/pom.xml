@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.gooddata</groupId>
   <artifactId>gdc-fixture</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-alpha</version>
   <packaging>jar</packaging>
 
   <name>gdc-fixture</name>
@@ -61,4 +60,18 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <scm>
+        <url>git@github.com:ldkhoa/gdc-fixture.git</url>
+        <connection>scm:git:git@github.com:ldkhoa/gdc-fixture.git</connection>
+        <developerConnection>scm:git:git@github.com:ldkhoa/gdc-fixture.git</developerConnection>
+    <tag>fixture</tag>
+  </scm>
+
+    <distributionManagement>
+      <repository>
+        <id>gooddata</id>
+        <url>https://maven.gooddata.com/nexus/content/repositories/gooddata/</url>
+      </repository>
+    </distributionManagement>
 </project>
