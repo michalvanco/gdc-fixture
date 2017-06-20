@@ -1,0 +1,5 @@
+upload.zip
+out
+.test
+*.pyc
+*.t.err
